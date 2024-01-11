@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yektasad/static/css/main.d5aa8893.css",
+    "main.js": "/yektasad/static/js/main.eb5c27aa.js",
+    "static/js/787.f379dc0b.chunk.js": "/yektasad/static/js/787.f379dc0b.chunk.js",
+    "index.html": "/yektasad/index.html",
+    "main.d5aa8893.css.map": "/yektasad/static/css/main.d5aa8893.css.map",
+    "main.eb5c27aa.js.map": "/yektasad/static/js/main.eb5c27aa.js.map",
+    "787.f379dc0b.chunk.js.map": "/yektasad/static/js/787.f379dc0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5aa8893.css",
+    "static/js/main.eb5c27aa.js"
+  ]
+}
