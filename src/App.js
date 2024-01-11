@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./components/Card";
 
-function App() {
+const App = () => {
+  const nav = [
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/ahowan-616149694d332.jpeg",
+    },
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/1ta100-639725007add0.jpg",
+    },
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/ahowan-616149694d332.jpeg",
+    },
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/1ta100-639725007add0.jpg",
+    },
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/ahowan-616149694d332.jpeg",
+    },
+    {
+      title: "13,234",
+      img: "https://1ta100.ir/storage/files/shares/1ta100-639725007add0.jpg",
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-9 mt-12">
+      {nav.map((item, index) => (
+        <Card item={item} key={index} />
+      ))}
     </div>
   );
-}
+};
 
 export default App;

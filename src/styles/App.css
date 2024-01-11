@@ -1,0 +1,15 @@
+@font-face {
+  font-family: Gumela;
+  src: url("../assets/fonts/Gumela\ Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gumela" !important;
+}
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
